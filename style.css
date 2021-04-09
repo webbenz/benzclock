@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background: #221F1F;
+}
+
+p {
+    color: floralwhite;
+    background: #ff0099;
+    letter-spacing: 2px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(black, dodgerblue, black);
+    border: 20px solid #ff0099;
+}
